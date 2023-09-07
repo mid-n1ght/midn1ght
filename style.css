@@ -79,11 +79,6 @@ p {
     align-items: center;
 }
 
-.language-container {
-    display: flex;
-    align-items: center;
-}
-
 .language {
     font-size: 24px; /* Adjust font size */
 }
