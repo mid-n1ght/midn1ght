@@ -72,7 +72,7 @@ p {
 .header {
     display: grid;
     align-items: center;
-    grid-template-columns: auto 1fr auto auto; /* Adjusted the column widths */
+    grid-template-columns: auto 1fr auto; /* Adjusted the column widths */
     column-gap: 10px;
     padding: 10px 20px; /* Adjusted padding */
     justify-content: space-between;
