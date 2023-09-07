@@ -45,6 +45,17 @@ a {
   margin-right: 10px;
 }
 
+.icon-pair .icon-container {
+  width: 48%;
+  /* Adjust the width to control spacing between pairs */
+}
+
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+  .icon-pair .icon-container {
+    width: 100%; /* Full width on smaller screens */
+  }
+}
+
 .text-container {
   margin-left: 0px;
   /*Adjust the margin as needed to control spacing */
