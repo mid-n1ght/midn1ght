@@ -80,7 +80,8 @@ p {
 }
 
 .language {
-    font-size: 24px; /* Adjust font size */
+    font-size: 30px;
+    text-decoration: none;
 }
 
 
