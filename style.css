@@ -70,14 +70,24 @@ p {
 }
 
 .header {
-  display: grid;
-  align-items: center;
-  grid-template-columns: auto 1fr auto;
-  column-gap: 10px;
-  padding: 10px 20px;
-  justify-content: space-between;
-  align-items: center;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto 1fr auto auto; /* Adjusted the column widths */
+    column-gap: 10px;
+    padding: 10px 20px; /* Adjusted padding */
+    justify-content: space-between;
+    align-items: center;
 }
+
+.language-container {
+    display: flex;
+    align-items: center;
+}
+
+.language {
+    font-size: 24px; /* Adjust font size */
+}
+
 
 .Hbutton {
   grid-column: 3;
